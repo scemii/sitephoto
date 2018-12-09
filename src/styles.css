@@ -83,26 +83,16 @@ html,body{
 
 
 .App {
-  padding: 0px 250px;
-  text-align: center;
-  max-width: 100px;
-  grid-gap: 5px;
-  text-align: center;
   display: grid;
   grid-template-columns: repeat(4, auto);
-  align-items: center;
   justify-items: center;
 }
 
 
 .AppImage {
-  padding: 50px 20px;
-  min-height: 300px;
+  min-height: 400px;
   min-width: 400px;
-  align-items: center;
   justify-items: center;
-  margin-left: auto;
-  margin-right: auto;
 }
 
 @keyframes BlocImageAnimation {
